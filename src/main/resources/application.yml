@@ -1,4 +1,4 @@
- spring:
+spring:
   application:
     name: pos-system
 
@@ -36,8 +36,6 @@ razorpay:
   api:
     key: your razorpay key
     secret: provide yor razorpay secrate
-
-
 
 stripe:
   api:
