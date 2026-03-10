@@ -3,7 +3,7 @@ spring:
     name: pos-system
 
   datasource:
-    url: jdbc:mysql://${DB_HOST:your-aiven-host}:${DB_PORT:28373}/${DB_NAME:pos}
+    url: jdbc:mysql://${DB_HOST:your-aiven-host}:${DB_PORT:28373}/${DB_NAME:pos}?useSSL=true&trustServerCertificate=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: ${DB_USERNAME:your-username}
     password: ${DB_PASSWORD:your-password}
